@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta charset="utf-8">
+        <title>Часы</title>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="time">
+            <div class="time-info">
+                <span class="time-counter"></span>
+                <span class="time-data"></span>
+            </div>
+            <div class="time-control">
+                <div class="dropdown time-city">
+                    <button class="dropbtn">
+                        Выберите
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" gmt-zone="+3">
+                            Москва
+                        </a>
+                        <a href="#" gmt-zone="+6">
+                            Омск
+                        </a>
+                        <a href="#" gmt-zone="+10">
+                            Хабаровск
+                        </a>
+                        <a href="#" gmt-zone="+3">
+                            Воркута
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown time-format">
+                    <button class="dropbtn">
+                        24
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" class="selected">
+                            24
+                        </a>
+                        <a href="#">
+                            12
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="assets/js/script.js" type="text/javascript">
+</script>
